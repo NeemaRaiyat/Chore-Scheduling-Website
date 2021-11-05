@@ -1,0 +1,78 @@
+/* This file is only used by header.php and contains all the styling for the header */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+.inner_header {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #101010;
+}
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.logo_container:hover {
+    cursor: pointer;
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight: 800;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.home{
+    background-color: #d4852a;
+}
+.home:hover{
+    background-color: #a76a26;
+    cursor: pointer;
+}
+.createAcc{
+    background-color: #e63939;
+}
+.createAcc:hover{
+    background-color: #b12d2d;
+}
+.login{
+    background-color: #1bc1c7;
+}
+.login:hover{
+    background-color: #169599;
+}
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
