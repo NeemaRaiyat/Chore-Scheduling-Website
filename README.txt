@@ -1,6 +1,6 @@
 Explanation of Web Application:
 
-My web application seeks to make the scheduling and allocation of chores for students living together much easier. All the chores of a household are stored in one place where all members of that household can view as well as add new chores. These chores will be allocated to the student in the household with the least current workload. 
+My web application seeks to make the scheduling and allocation of chores for students living together much easier. All the chores of a household are stored in one place where all members of that household can view as well as add new chores. These chores will be allocated to the student in the household with the least current workload. Students have various options when adding new chores to be completed for a household, such as sending an email notification reminder to whoever receives the chore.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
